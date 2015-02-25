@@ -1,3 +1,20 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+div img{
+    float: left;
+    display: block;
+}
+
+div h1 {
+    display: block;
+    float:right;
+}
+
+hr {
+    margin-bottom: 10px;
+    clear:both;
+}
+
+body:nth-child(4) {
+}
