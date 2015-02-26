@@ -1,14 +1,23 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+
+body {
+    margin: 20px 60px 60px 60px;
+}
+
 div img{
     float: left;
     display: block;
+    height: 50px;
+    margin-top: -10px;
 }
 
 div h1 {
     display: block;
     float:right;
+    margin-top: 1px;
+    font-family: Arial;
 }
 
 hr {
@@ -16,9 +25,62 @@ hr {
     clear:both;
 }
 
+h2 {
+    font-family: Arial;
+    color: #837777;
+    margin-bottom: 4px;
+}
+
 .search {
-    height: 180px;
+    height: 239px;
     background-color: #4A90E2;
-    width: 500px;
+    width: 575px;
     border-radius: 10px;
+    float: left;
+    margin: 0.1% 0% 0% 0%;
+}
+
+.inventory {
+    height: 239px;
+    background-color: #bb24e4;
+    width: 575px;
+    border-radius: 10px;
+    float: right;
+    margin: 0.1% 0% 0% 0%;
+}
+
+.portfolio {
+    height: 239px;
+    background-color: #d00241;
+    width: 575px;
+    border-radius: 10px;
+    float: left;
+    margin: 0.5% 0% 0% 0%;
+}
+
+.battleship {
+    height: 239px;
+    background-color: #b8e986;
+    width: 575px;
+    border-radius: 10px;
+    float: right;
+    margin: 0.5% 0% 0% 0%;
+}
+
+.cashRegister {
+    height: 239px;
+    background-color: #E9794A;
+    width: 575px;
+    border-radius: 10px;
+    float: left;
+    margin: 0.5% 0% 0% 0%;
+}
+
+.factorial {
+    height: 239px;
+    background-color: #134397;
+    width: 575px;
+    border-radius: 10px;
+    float: right;
+    margin: 0.5% 0% 0% 0%;
 }
