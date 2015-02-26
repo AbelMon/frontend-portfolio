@@ -18,6 +18,14 @@ div h1 {
     float:right;
     margin-top: 1px;
     font-family: Arial;
+    margin-bottom: 2px;
+}
+
+div h3 {
+    font-family: Arial;
+    clear: right;
+    float: right;
+    margin-top: 1px
 }
 
 hr {
@@ -55,7 +63,8 @@ h2 {
     width: 575px;
     border-radius: 10px;
     float: left;
-    margin: 0.5% 0% 0% 0%;
+    clear: left;
+    margin: 5% 0% 0% 0%;
 }
 
 .battleship {
@@ -84,3 +93,25 @@ h2 {
     float: right;
     margin: 0.5% 0% 0% 0%;
 }
+
+.left {
+    float: left;
+    margin-top: 250px;
+    margin-left: -500px;
+    margin-bottom: 1px
+}
+
+.leftLink {
+    float: left;;
+    margin-top: 270px;
+    margin-left: -500px;
+    margin-bottom:1px;
+}
+
+.right {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 650px;
+    margin-right: 10px;
+}
+
