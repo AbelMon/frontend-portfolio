@@ -94,55 +94,15 @@ h2 {
     margin: 0.5% 0% 0% 0%;
 }
 
-.engineText {
+.textContainer {
+    text-align: center;
+    clear:left;
     float: left;
-    margin-top: 250px;
-    margin-left: -500px;
-    margin-bottom: 1px
+    width: 150px;
+    height: 50px;
 }
 
-.favappText {
-    float: left;;
-    margin-top: 270px;
-    margin-left: -500px;
-    margin-bottom:1px;
-}
-
-.inventoryText {
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 650px;
-    margin-right: 10px;
-}
-
-.framework {
-    position: absolute;
-    margin-top: 270px;
-    margin-left: 650px;
+p {
+    margin-top: 1px;
     margin-bottom: 1px;
-}
-
-.portfolioText {
-    float: left;
-    margin-top: 255px;
-    margin-left: -500px;
-    margin-bottom: 1px;
-}
-
-.bootstrap {
-    float: left;
-    margin-top: 275px;
-    margin-left: -500px;
-    margin-bottom: 1px;
-}
-
-.battleshipText {
-    position: absolute;
-    margin-top: 544px;
-
-}
-
-.botstrapTwo {
-    position: absolute;
-    margin-top: 564px;
 }
