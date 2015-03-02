@@ -59,7 +59,7 @@ p {
 
 .rightHeader{
     margin-top: -15px;
-    width: 28%;
+    width: 30%;
     height: 4%;
     float: right;
 }
@@ -202,6 +202,7 @@ p {
 .littleText {
     font-size: 79%;
     font-weight: normal;
+    color: #1B4BE9;
 }
 
 .textSearch {
