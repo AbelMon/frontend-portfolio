@@ -144,7 +144,6 @@ p {
     height: 50px;
     margin-left: 13.8%;
     margin-top: 19%;
-    background-color: red;
 }
 
 .textContainerRight{
@@ -155,7 +154,6 @@ p {
     height: 50px;
     margin-right: 17%;
     margin-top: 20.9%;
-    background-color: red;
 }
 
 .textContainerPortfolio {
@@ -167,7 +165,6 @@ p {
     height: 50px;
     margin-left: 15.6%;
     margin-top: 41.75%;
-    background-color: red;
 }
 
 .textContainerGuess {
@@ -179,7 +176,6 @@ p {
     height: 50px;
     margin-left: 14.5%;
     margin-top: 64.5%;
-    background-color: red;
 }
 
 .textContainerCountries{
@@ -191,7 +187,6 @@ p {
     height: 50px;
     margin-left: 10.3%;
     margin-top: 87.9%;
-    background-color: red;
 }
 
 .divText {
@@ -209,10 +204,42 @@ p {
     font-weight: normal;
 }
 
+.textSearch {
+    color: #FFFFFF;
+    margin:6% 0% 0% 0%;
+}
+
+.insideSearch {
+    display: inline-block;
+    border-radius: 10px;
+    width: 45%;
+    height: 19.1%;
+    background-color: #FFFFFF;
+    margin: 4.51% -10% 0% -9%;
+}
+
+.greyDiv {
+    display: inline-block;
+    width: 20%;
+    height: 19.1%;
+    background-color: #C6C4C4;
+    margin: 0% 0% 0% 0%;
+}
+
+.image {
+    position: absolute;
+    display: inline-block;
+    height: 20%;
+    margin: 4.2% 0% 0% 0%;
+}
+
 object {
     position: absolute;
-    border-radius: 10px;
     float: right;
     margin: 69.1% 0% 0% 48%;
 }
 
+span {
+    font-size: 50%;
+    color: #D7D7D7;
+}
