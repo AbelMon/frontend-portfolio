@@ -9,6 +9,7 @@ body {
 div {
     width: 575px;
     height: 239px;
+    font-size: 250%;
 }
 
 div img{
@@ -31,6 +32,14 @@ div img{
     clear: right;
     float: right;
     margin-top: 1px
+}
+
+div .proyectTitle {
+    font-size: 50%;
+}
+
+div .littleText {
+    font-size: 35%;
 }
 
 hr {
@@ -62,6 +71,7 @@ p {
     width: 30%;
     height: 4%;
     float: right;
+    font-size: 100%;
 }
 
 .search {
@@ -70,7 +80,6 @@ p {
     border-radius: 10px;
     float: left;
     margin: 0 0 0 0;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -80,7 +89,6 @@ p {
     border-radius: 10px;
     float: right;
     margin: 0 0 0 48%;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -91,7 +99,6 @@ p {
     float: left;
     clear: left;
     margin: 23% 0 0 0;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -101,7 +108,6 @@ p {
     border-radius: 10px;
     float: right;
     margin: 23% 0 0 48%;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -111,7 +117,6 @@ p {
     border-radius: 10px;
     float: left;
     margin: 46% 0 0 0;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -121,7 +126,6 @@ p {
     border-radius: 10px;
     float: right;
     margin: 46% 0 0 48%;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -131,7 +135,6 @@ p {
     border-radius: 10px;
     float: left;
     margin: 69% 0 0 0;
-    font-size: 250%;
     text-align: center;
 }
 
@@ -195,12 +198,10 @@ p {
 }
 
 .proyectTitle {
-    font-size: 125%;
     font-weight: bold;
 }
 
 .littleText {
-    font-size: 79%;
     font-weight: normal;
     color: #1B4BE9;
 }
