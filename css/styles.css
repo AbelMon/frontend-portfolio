@@ -18,7 +18,7 @@ div img{
     margin-top: -10px;
 }
 
-div h1 {
+.bigTitle {
     display: block;
     float:right;
     margin-top: 1px;
@@ -26,7 +26,7 @@ div h1 {
     margin-bottom: 2px;
 }
 
-div h3 {
+.littleTitle {
     font-family: Arial;
     clear: right;
     float: right;
@@ -69,7 +69,7 @@ p {
     background-color: #4A90E2;
     border-radius: 10px;
     float: left;
-    margin: 0% 0% 0% 0%;
+    margin: 0 0 0 0;
     font-size: 250%;
     text-align: center;
 }
@@ -79,7 +79,7 @@ p {
     background-color: #bb24e4;
     border-radius: 10px;
     float: right;
-    margin: 0% 0% 0% 48%;
+    margin: 0 0 0 48%;
     font-size: 250%;
     text-align: center;
 }
@@ -90,7 +90,7 @@ p {
     border-radius: 10px;
     float: left;
     clear: left;
-    margin: 23% 0% 0% 0%;
+    margin: 23% 0 0 0;
     font-size: 250%;
     text-align: center;
 }
@@ -100,7 +100,7 @@ p {
     background-color: #b8e986;
     border-radius: 10px;
     float: right;
-    margin: 23% 0% 0% 48%;
+    margin: 23% 0 0 48%;
     font-size: 250%;
     text-align: center;
 }
@@ -110,7 +110,7 @@ p {
     background-color: #E9794A;
     border-radius: 10px;
     float: left;
-    margin: 46% 0% 0% 0%;
+    margin: 46% 0 0 0;
     font-size: 250%;
     text-align: center;
 }
@@ -120,7 +120,7 @@ p {
     background-color: #134397;
     border-radius: 10px;
     float: right;
-    margin: 46% 0% 0% 48%;
+    margin: 46% 0 0 48%;
     font-size: 250%;
     text-align: center;
 }
@@ -130,7 +130,7 @@ p {
     background-color: #521848;
     border-radius: 10px;
     float: left;
-    margin: 69% 0% 0% 0%;
+    margin: 69% 0 0 0;
     font-size: 250%;
     text-align: center;
 }
@@ -207,7 +207,7 @@ p {
 
 .textSearch {
     color: #FFFFFF;
-    margin:6% 0% 0% 0%;
+    margin:6% 0 0 0;
 }
 
 .insideSearch {
@@ -216,7 +216,7 @@ p {
     width: 45%;
     height: 19.1%;
     background-color: #FFFFFF;
-    margin: 4.51% -10% 0% -9%;
+    margin: 4.51% -10% 0 -9%;
 }
 
 .greyDiv {
@@ -224,20 +224,20 @@ p {
     width: 20%;
     height: 19.1%;
     background-color: #C6C4C4;
-    margin: 0% 0% 0% 0%;
+    margin: 0 0 0 0;
 }
 
 .image {
     position: absolute;
     display: inline-block;
     height: 20%;
-    margin: 4.2% 0% 0% 0%;
+    margin: 4.2% 0 0 0;
 }
 
 object {
     position: absolute;
     float: right;
-    margin: 69.1% 0% 0% 48%;
+    margin: 69.1% 0 0 48%;
 }
 
 span {
