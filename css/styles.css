@@ -10,10 +10,10 @@ div {
     width: 575px;
     height: 239px;
     font-size: 250%;
+    float: left;
 }
 
 div img{
-    float: left;
     display: block;
     height: 65px;
     margin-top: -10px;
@@ -63,7 +63,6 @@ p {
     margin-top: -10px;
     width: 20%;
     height: 4%;
-    float: left;
 }
 
 .rightHeader{
@@ -78,7 +77,6 @@ p {
     position: absolute;
     background-color: #4A90E2;
     border-radius: 10px;
-    float: left;
     margin: 0 0 0 0;
     text-align: center;
 }
@@ -96,7 +94,6 @@ p {
     position: absolute;
     background-color: #d00241;
     border-radius: 10px;
-    float: left;
     clear: left;
     margin: 23% 0 0 0;
     text-align: center;
@@ -115,7 +112,6 @@ p {
     position: absolute;
     background-color: #E9794A;
     border-radius: 10px;
-    float: left;
     margin: 46% 0 0 0;
     text-align: center;
 }
@@ -133,7 +129,6 @@ p {
     position: absolute;
     background-color: #521848;
     border-radius: 10px;
-    float: left;
     margin: 69% 0 0 0;
     text-align: center;
 }
@@ -141,7 +136,6 @@ p {
 .textContainer {
     position: absolute;
     text-align: center;
-    float: left;
     clear: both;
     width: 200px;
     height: 50px;
@@ -162,7 +156,6 @@ p {
 .textContainerPortfolio {
     position: absolute;
     text-align: center;
-    float: left;
     clear: both;
     width: 150px;
     height: 50px;
@@ -173,7 +166,6 @@ p {
 .textContainerGuess {
     position: absolute;
     text-align: center;
-    float: left;
     clear: both;
     width: 180px;
     height: 50px;
@@ -184,7 +176,6 @@ p {
 .textContainerCountries{
     position: absolute;
     text-align: center;
-    float: left;
     clear: both;
     width: 300px;
     height: 50px;
@@ -217,7 +208,7 @@ p {
     width: 45%;
     height: 19.1%;
     background-color: #FFFFFF;
-    margin: 4.51% -10% 0 -9%;
+    margin: 5% -10% 0 15%;
 }
 
 .greyDiv {
@@ -225,14 +216,14 @@ p {
     width: 20%;
     height: 19.1%;
     background-color: #C6C4C4;
-    margin: 0 0 0 0;
+    margin: 5% 0 0 0;
 }
 
 .image {
     position: absolute;
     display: inline-block;
     height: 20%;
-    margin: 4.2% 0 0 0;
+    margin: 4.7% 0 0 -16%;
 }
 
 object {
