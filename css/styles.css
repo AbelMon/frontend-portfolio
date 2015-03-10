@@ -1,238 +1,216 @@
-/*
-Aqui escribe tu codigo de CSS.
-*/
-
-body {
-    margin: 20px 60px 60px 60px;
-}
-
 div {
-    width: 575px;
-    height: 239px;
-    font-size: 250%;
-    float: left;
-}
-
-div img{
-    display: block;
-    height: 65px;
-    margin-top: -10px;
-}
-
-.bigTitle {
-    display: block;
-    float:right;
-    margin-top: 1px;
-    font-family: Arial;
-    margin-bottom: 2px;
-}
-
-.littleTitle {
-    font-family: Arial;
-    clear: right;
-    float: right;
-    margin-top: 1px
-}
-
-div .proyectTitle {
-    font-size: 50%;
-}
-
-div .littleText {
-    font-size: 35%;
-}
-
-hr {
-    margin-bottom: 10px;
-    clear:both;
-}
-
-h2 {
-    font-family: Arial;
-    color: #837777;
-    margin-bottom: 4px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 p {
-    margin-top: 1px;
-    margin-bottom: 6px;
     font-family: Arial;
 }
 
-.cognits{
-    margin-top: -10px;
-    width: 20%;
-    height: 4%;
+a:link {
+    text-decoration: none;
 }
 
-.rightHeader{
-    margin-top: -15px;
-    width: 30%;
-    height: 4%;
+.container {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.top {
+    width: 95%;
+}
+
+.rightText {
+    width: 29%;
+    text-align: right;
     float: right;
-    font-size: 100%;
+    overflow: hidden;
+    margin: 0 -5% 0 0;
+    font-family: Arial;
 }
 
-.search {
-    position: absolute;
-    background-color: #4A90E2;
-    border-radius: 10px;
-    margin: 0 0 0 0;
-    text-align: center;
+.top > img {
+    margin-top: -0.5%;
+    width: 28%;
+    height: auto;
+    min-width: 250px;
+    max-width: 500px;
 }
 
-.inventory {
-    position: absolute;
-    background-color: #bb24e4;
-    border-radius: 10px;
-    float: right;
-    margin: 0 0 0 48%;
-    text-align: center;
+.title {
+    margin: 2% 0 0 0;
 }
 
-.portfolio {
-    position: absolute;
-    background-color: #d00241;
-    border-radius: 10px;
-    clear: left;
-    margin: 23% 0 0 0;
-    text-align: center;
+.subtitle {
+    margin: 1.5% 0 7% 0;
 }
 
-.battleship {
-    position: absolute;
-    background-color: #b8e986;
-    border-radius: 10px;
-    float: right;
-    margin: 23% 0 0 48%;
-    text-align: center;
+hr {
+    width: 105%;
 }
 
-.guessNumber {
-    position: absolute;
-    background-color: #E9794A;
-    border-radius: 10px;
-    margin: 46% 0 0 0;
-    text-align: center;
-}
-
-.factorial {
-    position: absolute;
-    background-color: #134397;
-    border-radius: 10px;
-    float: right;
-    margin: 46% 0 0 48%;
-    text-align: center;
-}
-
-.countries {
-    position: absolute;
-    background-color: #521848;
-    border-radius: 10px;
-    margin: 69% 0 0 0;
-    text-align: center;
-}
-
-.textContainer {
-    position: absolute;
-    text-align: center;
-    clear: both;
-    width: 200px;
-    height: 50px;
-    margin-left: 13.8%;
-    margin-top: 19%;
-}
-
-.textContainerRight{
-    text-align: center;
-    float: right;
-    clear: both;
-    width: 150px;
-    height: 50px;
-    margin-right: 17%;
-    margin-top: 20.9%;
-}
-
-.textContainerPortfolio {
-    position: absolute;
-    text-align: center;
-    clear: both;
-    width: 150px;
-    height: 50px;
-    margin-left: 15.6%;
-    margin-top: 41.75%;
-}
-
-.textContainerGuess {
-    position: absolute;
-    text-align: center;
-    clear: both;
-    width: 180px;
-    height: 50px;
-    margin-left: 14.5%;
-    margin-top: 64.5%;
-}
-
-.textContainerCountries{
-    position: absolute;
-    text-align: center;
-    clear: both;
-    width: 300px;
-    height: 50px;
-    margin-left: 10.3%;
-    margin-top: 87.9%;
-}
-
-.divText {
-    color: #FFFFFF;
-    margin-top: 15%;
-}
-
-.proyectTitle {
-    font-weight: bold;
-}
-
-.littleText {
-    font-weight: normal;
-    color: #1B4BE9;
-}
-
-.textSearch {
-    color: #FFFFFF;
-    margin:6% 0 0 0;
-}
-
-.insideSearch {
-    display: inline-block;
-    border-radius: 10px;
-    width: 45%;
-    height: 19.1%;
-    background-color: #FFFFFF;
-    margin: 5% -10% 0 15%;
-}
-
-.greyDiv {
-    display: inline-block;
-    width: 20%;
-    height: 19.1%;
-    background-color: #C6C4C4;
-    margin: 5% 0 0 0;
-}
-
-.image {
-    position: absolute;
-    display: inline-block;
-    height: 20%;
-    margin: 4.7% 0 0 -16%;
-}
-
-object {
-    position: absolute;
-    float: right;
-    margin: 69.1% 0 0 48%;
+h2 {
+    color: #777777;
+    margin-top: 3%;
+    margin-bottom: 7px;
+    font-family: Arial;
 }
 
 span {
-    font-size: 50%;
-    color: #D7D7D7;
+    color: #D8D8D8;
+    font-size: 40%;
+}
+
+.proyectsLeft {
+    width: 49%;
+}
+
+.proyectsRight {
+    width: 49%;
+}
+
+.proyects {
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insideDiv {
+    color: white;
+    margin: 0 0 0 0;
+    font-size: 275%;
+}
+
+.insideDivSearch {
+    color: white;
+    font-size: 245%;
+    margin-top: 8%;
+}
+
+.proyectDescription {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.eachProyects {
+    overflow: hidden;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 310px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.proyectSearch {
+    background-color: #4A90E2;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 310px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.rectangle {
+    margin: auto;
+    border-radius: 6px;
+    width: 70%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.rectangle > img {
+    margin: -2px 0 0 0;
+    height: 105%;
+    background-color: #4A90E2;
+}
+
+.grey {
+    width: 25%;
+    height: 100%;
+    float: right;
+    background-color: #D8D8D8;
+}
+
+.proyectTitle {
+    font-size: 122%;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyectType {
+    margin-top: 1%;
+    font-size: 78%;
+    color: #4025DC;
+}
+
+.inventory {
+    background-color: #BD10E0;
+}
+
+.portfolio {
+    background-color: #D00241;
+}
+
+.battleship {
+    background-color: #B8E986;
+}
+
+.guess{
+    background-color: #EE8413;
+ }
+
+.factorial {
+    background-color: #4149A4;
+}
+
+.countries {
+    background-color: #9C2B9C;
+}
+
+.black {
+    background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .top {
+        text-align: center;
+    }
+    .rightText {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .proyects {
+        flex-direction: column;
+    }
+    .proyectsLeft {
+        width: 100%;
+    }
+    .proyectsRight {
+        width: 100%;
+    }
+    .insideDivSearch {
+        margin: auto;
+    }
+}
+
+@media screen {
+    object {
+        width: auto;
+        height: 94%;
+    }
+    embed {
+        width: auto;
+        height: 94%;
+    }
 }
